@@ -1,0 +1,110 @@
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.dumi-default-doc-layout {
+  .dumi-default-header {
+
+    width: 100%;
+    top: 0;
+
+    &,
+    &:not([data-static]) {
+      position: fixed;
+      background-color: hsl(0deg 0% 100% / 60%);
+      //box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.05);
+    }
+
+    .dumi-default-header-content {
+      max-width: 100%;
+      height: 65px;
+    }
+
+    .dumi-default-header-left {
+      width: 250px;
+    }
+
+    .dumi-default-logo {
+      img {
+        height: 50px;
+      }
+    }
+
+    .dumi-default-navbar {
+      & > li {
+        font-size: 15px;
+
+        &:not(:last-child) {
+          margin-inline-end: 25px;
+        }
+      }
+    }
+
+  }
+
+  .dumi-default-content:not([data-no-sidebar]) {
+    margin-top: 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+
+  .dumi-default-hero {
+    margin: 0 auto;
+    height: 100vh;
+    background: linear-gradient(45deg, #ffffff, rgb(214 214 214 / 70%), rgb(11 60 66 / 70%), #57e4f6, #000000);
+    background-size: 400%;
+    max-width: 100%;
+
+    &:before {
+      background: none;
+    }
+  }
+
+  & > main {
+    margin-top: 65px !important;
+  }
+
+}
+
+[data-prefers-color="dark"] {
+  .dumi-default-header {
+    background-color: #050709;
+  }
+
+  .prism-code,
+  .dumi-default-tabs {
+    border-color: #222;
+  }
+
+  .dumi-default-doc-layout {
+    .dumi-default-hero {
+      background: linear-gradient(45deg, #010101, rgb(24 22 22 / 70%), rgb(0 0 0 / 70%), #18191a, #000000);
+    }
+  }
+}
+
+.prism-code,
+.dumi-default-tabs {
+  border: 1px solid #eee;
+  margin: 15px 0;
+}
+
+.dumi-default-tabs {
+  .prism-code {
+    border: 0;
+  }
+}
+
+.dumi-default-container.markdown {
+  margin-top: 25px !important;
+  margin-bottom: 25px;
+}
