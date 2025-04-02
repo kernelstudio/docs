@@ -1,6 +1,10 @@
 # Firecho Framework&Platform Docs
 
-## Development
+## 在线文档
+
+[Firecho](https://www.firecho.com)
+
+## 开发编译
 
 ```bash
 # install dependencies
