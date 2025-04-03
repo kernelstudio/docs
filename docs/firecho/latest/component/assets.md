@@ -13,7 +13,7 @@ title: 静态资源
 ```xml [pom.xml]
 
 <dependency>
-    <artifactId>firecho-assets-bundler</artifactId>
+    <artifactId>firecho-assets</artifactId>
     <groupId>com.firecho</groupId>
 </dependency>
 ```
@@ -21,8 +21,8 @@ title: 静态资源
 :::
 
 ## 2. 静态资源
-具体支持的图片/CSS/JS静态资源库可查看<a href="https://github.com/kernelstudio/firecho/master/firecho-assets-bundler/src/main/resources/META-INF/assets/bundler" target="_blank">Github</a>
-或<a href="https://gitee.com/firecho/firecho/master/firecho-assets-bundler/src/main/resources/META-INF/assets/bundler" target="_blank">Gitee</a>
+具体支持的图片/CSS/JS静态资源库可查看<a href="https://github.com/kernelstudio/firecho/master/firecho-assets/src/main/resources/META-INF/assets/bundler" target="_blank">Github</a>
+或<a href="https://gitee.com/firecho/firecho/master/firecho-assets/src/main/resources/META-INF/assets/bundler" target="_blank">Gitee</a>
 
 ## 3. freemarker指令
 
