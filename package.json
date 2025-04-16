@@ -101,5 +101,8 @@
     "vue-tsc": "^2.1.6"
   },
   "dependencies": {
+    "@kernelstudio/code-editor": "^3.6.9",
+    "@kernelstudio/components": "^3.6.9",
+    "ant-design-vue": "^4.2.6"
   }
 }
