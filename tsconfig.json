@@ -10,8 +10,8 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "firecho-docs": ["src"],
-      "firecho-docs/*": ["src/*", "*"]
+      "docs": ["src"],
+      "docs/*": ["src/*", "*"]
     }
   },
   "include": [".dumirc.ts", "src/**/*"]

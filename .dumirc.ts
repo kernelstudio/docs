@@ -23,11 +23,12 @@ export default defineConfig({
             ],
         },
         socialLinks: {
-            github: 'https://github.com/kernelstudio/firecho'
+            github: 'https://github.com/kernelstudio'
         },
         prefersColor: {
             default: 'auto'
         },
+
         showLineNum: true,
         nprogress: true,
         footer: `Open-source MIT Licensed | @firecho ${new Date().getFullYear()}`

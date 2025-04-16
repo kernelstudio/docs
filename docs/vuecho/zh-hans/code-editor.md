@@ -1,23 +1,58 @@
 ---
-title: 用户头像
+title: 代码编辑器
 group:
   title: 基础组件
-  order: 0
+  order: 3
 ---
 
-## 1. 使用方式
+## 1. 安装
 
 :::code-group
 
-```js [默认]
-import {Avatar} from '@kernelstudio/components'
+```shell [npm]
+npm install @kernelstudio/code-editor
 ```
 
-```js [单个导入]
-import Avatar from '@kernelstudio/components/es/avatar'
+```shell [yarn]
+yarn add @kernelstudio/code-editor
+```
+
+```shell [pnpm]
+pnpm add @kernelstudio/code-editor
 ```
 
 :::
+
+## 2. 使用方式
+
+```vue
+
+<template>
+  <code-editor
+      lang='js'
+      :content='codeContent'
+      @change='(v)=> codeContent = v'
+  />
+</template>
+
+<script>
+  import {ref} from 'vue'
+  import {CodeEditor} from '@kernelstudio/code-editor'
+
+  export default {
+    components: {
+      CodeEditor
+    },
+    props: {},
+    setup(props, {emit}) {
+      const codeContent = ref('var hello="test javascript";')
+      return {
+        codeContent,
+      }
+    }
+  }
+</script>
+```
 
 ## 2. 属性说明
 

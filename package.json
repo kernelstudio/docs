@@ -1,7 +1,7 @@
 {
-  "name": "firecho-docs",
+  "name": "docs",
   "version": "0.0.1",
-  "description": "firecho docs",
+  "description": "Kernel Studio Docs",
   "scripts": {
     "build": "vite build && vue-tsc --project ./tsconfig.build.json",
     "build:watch": "vite build --watch",
