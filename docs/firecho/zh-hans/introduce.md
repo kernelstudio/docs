@@ -11,8 +11,8 @@ title: 基础介绍
 
 如果此项目对您或者您公司的快速业务开发起到很大的帮助,请star以支持我们的工作!
 
-* [Github](https://github.com/kernelstudio.com/firecho)
-* [Gitee](https://gitee.com/firecho)
+* [Github](https://github.com/kernelstudio/firecho)
+* [Gitee](https://gitee.com/kernelstudio/firecho)
 
 # 2. 在线讨论
 
@@ -20,4 +20,4 @@ title: 基础介绍
 
 # 3. 定制开发
 
-请联系 <a href="mailto:firecho@kernelstudio.com">firecho@kernelstudio.com</a>
+请联系 <a href="mailto:admin@kernelstudio.com">admin@kernelstudio.com</a>

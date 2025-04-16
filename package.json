@@ -19,7 +19,7 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "authors": [
-    "firecho@kernelstudio.com"
+    "admin@kernelstudio.com"
   ],
   "repository": {
     "type": "git"
