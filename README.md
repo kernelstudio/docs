@@ -1,10 +1,10 @@
-# Firecho 平台/框架文档
+# Kernel Studio 平台/框架/手册/文档
 
-## 在线文档
+## 1. 在线文档
 
-[Firecho](https://www.firecho.com)
+[Kernel Studio Docs](https://docs.kernelstudio.com)
 
-## 开发编译
+## 2. 开发编译
 
 ```bash
 # install dependencies

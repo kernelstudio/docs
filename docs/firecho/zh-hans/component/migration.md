@@ -1,5 +1,6 @@
 ---
-title: 文件存储
+title: 数据迁移
+group: 基础组件
 ---
 
 ## 1. 引入方式
@@ -9,7 +10,7 @@ title: 文件存储
 ```xml [pom.xml]
 
 <dependency>
-    <artifactId>firecho-storage</artifactId>
+    <artifactId>firecho-migration</artifactId>
     <groupId>com.firecho</groupId>
 </dependency>
 ```

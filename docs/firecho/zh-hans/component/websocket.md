@@ -1,5 +1,6 @@
 ---
-title: 授权管理
+title: Websocket
+group: 基础组件
 ---
 
 ## 1. 引入方式
@@ -9,7 +10,7 @@ title: 授权管理
 ```xml [pom.xml]
 
 <dependency>
-    <artifactId>firecho-authorization</artifactId>
+    <artifactId>firecho-websocket</artifactId>
     <groupId>com.firecho</groupId>
 </dependency>
 ```

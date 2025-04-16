@@ -1,5 +1,6 @@
 ---
-title: 数据迁移
+title: 短地址
+group: 基础组件
 ---
 
 ## 1. 引入方式
@@ -9,9 +10,10 @@ title: 数据迁移
 ```xml [pom.xml]
 
 <dependency>
-    <artifactId>firecho-migration</artifactId>
+    <artifactId>firecho-shorturl</artifactId>
     <groupId>com.firecho</groupId>
 </dependency>
 ```
 
 :::
+

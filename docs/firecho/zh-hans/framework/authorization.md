@@ -1,15 +1,16 @@
 ---
-title: 微信
+title: 授权管理
+group: 基础框架
 ---
 
 ## 1. 引入方式
 
-:::tabs
+:::code-group
 
 ```xml [pom.xml]
 
 <dependency>
-    <artifactId>firecho-wechat</artifactId>
+    <artifactId>firecho-authorization</artifactId>
     <groupId>com.firecho</groupId>
 </dependency>
 ```

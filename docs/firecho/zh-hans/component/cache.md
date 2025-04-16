@@ -1,5 +1,6 @@
 ---
 title: 数据缓存
+group: 基础组件
 ---
 
 :::warning{title=特别说明}

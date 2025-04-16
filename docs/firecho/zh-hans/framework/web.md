@@ -1,5 +1,6 @@
 ---
-title: 基础防火墙
+title: WEB应用
+group: 基础框架
 ---
 
 ## 1. 引入方式
@@ -9,7 +10,7 @@ title: 基础防火墙
 ```xml [pom.xml]
 
 <dependency>
-    <artifactId>firecho-context</artifactId>
+    <artifactId>firecho-web</artifactId>
     <groupId>com.firecho</groupId>
 </dependency>
 ```

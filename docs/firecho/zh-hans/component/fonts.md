@@ -1,5 +1,6 @@
 ---
 title: 字体
+group: 基础组件
 ---
 
 :::success{title=特别说明}

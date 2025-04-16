@@ -1,5 +1,6 @@
 ---
 title: 静态资源 
+group: 基础组件
 ---
 
 :::warning{title=特别说明}

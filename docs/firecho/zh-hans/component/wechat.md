@@ -1,18 +1,18 @@
 ---
-title: 短地址
+title: 微信
+group: 基础组件
 ---
 
 ## 1. 引入方式
 
-:::code-group
+:::tabs
 
 ```xml [pom.xml]
 
 <dependency>
-    <artifactId>firecho-shorturl</artifactId>
+    <artifactId>firecho-wechat</artifactId>
     <groupId>com.firecho</groupId>
 </dependency>
 ```
 
 :::
-

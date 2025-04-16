@@ -14,17 +14,16 @@ export default defineConfig({
             {name: 'description', content: 'Firecho framework.'},
         ],
         nav: {
-            mode: "override",
-            value: [
-                {title: 'GUIDES', link: '/guides/latest/introduce'},
-                {title: 'FIRECHO', link: '/firecho/latest/introduce'},
-                {title: 'VUECHO', link: '/vuecho/latest/introduce'},
-                {title: 'PLATFORM', link: '/platform/latest/introduce'},
-                {title: 'BPM', link: '/bpm/latest/introduce'}
-            ]
+            'zh-CN': [
+                {title: 'FIRECHO', link: '/firecho/zh-hans/introduce'},
+                {title: 'VUECHO', link: '/vuecho/zh-hans/introduce'},
+                {title: 'FLOWECHO', link: '/flowecho/zh-hans/introduce'},
+                {title: 'FRAMECHO', link: '/framecho/zh-hans/introduce'},
+                {title: 'PLATFORM', link: '/platform/zh-hans/introduce'},
+            ],
         },
         socialLinks: {
-            github: 'https://github.com/kernelstudio/firecho',
+            github: 'https://github.com/kernelstudio/firecho'
         },
         prefersColor: {
             default: 'auto'

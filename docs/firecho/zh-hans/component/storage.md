@@ -1,5 +1,6 @@
 ---
-title: Boot自动配置
+title: 文件存储
+group: 基础组件
 ---
 
 ## 1. 引入方式
@@ -9,7 +10,7 @@ title: Boot自动配置
 ```xml [pom.xml]
 
 <dependency>
-    <artifactId>firecho-boot-autoconfigure</artifactId>
+    <artifactId>firecho-storage</artifactId>
     <groupId>com.firecho</groupId>
 </dependency>
 ```

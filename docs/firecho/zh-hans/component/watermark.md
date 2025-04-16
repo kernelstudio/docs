@@ -1,5 +1,6 @@
 ---
 title: 文件水印 
+group: 基础组件
 ---
 
 :::warning{title=特别说明}
