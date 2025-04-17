@@ -1,8 +1,9 @@
 ---
 title: 代码编辑器
+order: 1
 group:
-  title: 基础组件
-  order: 3
+  title: 编辑器
+  order: 0
 ---
 
 ## 1. 安装

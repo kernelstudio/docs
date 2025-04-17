@@ -1,5 +1,6 @@
 ---
 title: 用户头像
+order: 0
 group:
   title: 基础组件
   order: 0
