@@ -6,6 +6,10 @@ group:
   order: 0
 ---
 
+:::warning{title=特别说明}
+暂时只支持百度地图
+:::
+
 ## 1. 安装
 
 :::code-group
@@ -186,8 +190,8 @@ pnpm add @kernelstudio/map
 | width     | 宽度       | String  | false | 100%             | 3.6.9 |
 | height    | 高度       | String  | false | 100vh            | 3.6.9 |
 | webgl     | 启用webgl  | Boolean | false | true             | 3.6.9 |
-| longitude | 默认经度     | Number  | false | -                | 3.6.9 |
-| latitude  | 默认纬度     | Number  | false | -                | 3.6.9 |
+| longitude | 默认经度     | Number  | false | 119.65928        | 3.6.9 |
+| latitude  | 默认纬度     | Number  | false | 32.824393        | 3.6.9 |
 | zoomLevel | 缩放级别     | Number  | false | 8                | 3.6.9 |
 | zoom      | 开启鼠标滚轮缩放 | Boolean | false | true             | 3.6.9 |
 
@@ -206,3 +210,30 @@ pnpm add @kernelstudio/map
 | mapper    | 地图实例   | Object | 3.6.9 |
 | container | 地图容器   | String | 3.6.9 |
 | elementId | 节点元素ID | String | 3.6.9 |
+
+### 4.1 点击
+
+| 名称    | 回调参数                                   |  版本   |
+|:------|:---------------------------------------|:-----:|
+| click | @click=(lng, lat, location, e) => void | 3.6.9 |
+
+回调参数说明:
+
+| 名称       | 说明   | 类型     |  版本   |
+|:---------|:-----|:-------|:-----:|
+| lng      | 精度   | Number | 3.6.9 |
+| lat      | 纬度   | Number | 3.6.9 |
+| location | 位置信息 | String | 3.6.9 |
+| e        | 点击事件 | String | 3.6.9 |
+
+### 4.1 缩放
+
+| 名称     | 回调参数                         |  版本   |
+|:-------|:-----------------------------|:-----:|
+| zoomed | @zoomed=(zoomeLevel) => void | 3.6.9 |
+
+回调参数说明:
+
+| 名称         | 说明   | 类型     |  版本   |
+|:-----------|:-----|:-------|:-----:|
+| zoomeLevel | 缩放级别 | Number | 3.6.9 |

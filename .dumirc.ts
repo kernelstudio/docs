@@ -8,6 +8,8 @@ export default defineConfig({
     outputPath: 'dist',
     themeConfig: {
         // name: 'firecho',
+        title: 'Kernel Studio 在线文档',
+        description: 'Kernel Studio 在线文档',
         logo: '/assets/logo/default.svg',
         metas: [
             {name: 'keywords', content: 'Firecho,Framework'},
@@ -15,11 +17,12 @@ export default defineConfig({
         ],
         nav: {
             'zh-CN': [
-                {title: 'FIRECHO', link: '/firecho/zh-hans/introduce'},
-                {title: 'VUECHO', link: '/vuecho/zh-hans/introduce'},
-                {title: 'FLOWECHO', link: '/flowecho/zh-hans/introduce'},
-                {title: 'FRAMECHO', link: '/framecho/zh-hans/introduce'},
-                {title: 'PLATFORM', link: '/platform/zh-hans/introduce'},
+                {title: '后端', link: '/firecho/zh-hans/introduce'},
+                {title: '前端', link: '/vuecho/zh-hans/introduce'},
+                {title: '流程', link: '/flowecho/zh-hans/introduce'},
+                {title: '低代码', link: '/framecho/zh-hans/introduce'},
+                {title: '平台', link: '/platform/zh-hans/introduce'},
+                {title: '联系', link: '/contract/zh-hans/introduce'},
             ],
         },
         socialLinks: {
@@ -31,7 +34,7 @@ export default defineConfig({
 
         showLineNum: true,
         nprogress: true,
-        footer: `Open-source MIT Licensed | @firecho ${new Date().getFullYear()}`
+        footer: `Open-source MIT Licensed | @kernelstudio ${new Date().getFullYear()}`
     },
     presets: [require.resolve('@dumijs/preset-vue')],
 });

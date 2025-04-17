@@ -6,6 +6,6 @@ hero:
     - text: 开始
       link: /firecho/zh-hans/introduce
     - text: 预览
-      link: https://demo.firecho.com
+      link: https://demo.kernelstudio.com
 ---
 
